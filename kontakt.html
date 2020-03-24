@@ -1,0 +1,32 @@
+﻿<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+	
+	<body>
+		<h2>Kontakt</h2>
+		
+		<p>Máte nějaké připomínky, návrhy, nebo mě zkrátka chcete kontaktovat? Neváhejte využít tohohle kontaktního formuláře!</p>
+		
+		<p id="error"></p>
+		
+		<form>
+			<p>Vaše jméno:</p> 
+			<label>
+				<input type="text" id="jmeno"/>
+			</label>
+			
+			<p>Váš email:</p> 
+			<label>
+				<input type="email" id="email"/>
+			</label>
+			
+			<p>Zpráva:</p> 
+			<label>
+				<textarea id="zprava"></textarea>
+			</label>
+			
+			<button type="submit" id="odeslat" onClick="ulozitZpravu()">Odeslat</button>
+		</form>
+	</body>
+</html>
